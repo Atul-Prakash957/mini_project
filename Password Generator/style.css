@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 350px;
+    background: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.output-box {
+    display: flex;
+    margin: 10px 0;
+}
+
+#password {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+#copyBtn {
+    background: #238636;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.settings, .checkboxes {
+    margin: 10px 0;
+}
+
+.checkboxes label {
+    display: block;
+    margin: 6px 0;
+}
+
+.generate {
+    width: 100%;
+    background: #0070f3;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.generate:hover {
+    background: #0059c9;
+}
