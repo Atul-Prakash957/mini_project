@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+}
+
+#mybtn {
+    font-size: 2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.mylabel {
+    font-size: 3em;
+    margin-top: 20px;
+    display: block;
+}
